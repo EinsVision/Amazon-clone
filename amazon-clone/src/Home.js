@@ -50,7 +50,7 @@ function Home() {
           image='https://hniesfp.imgix.net/14/images/detailed/86/Misha_Sofabed_2_blue.jpg?fit=fill&bg=0FFF&w=785&h=523&auto=format,compress' 
         />
       </div>
-      <div className='home__row'>
+      <div className=' '>
         <Product 
           id={12345} 
           title='The Lean Startup: how contant Innovation Creates'
