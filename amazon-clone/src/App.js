@@ -1,13 +1,32 @@
 import React from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="app">
-      <h2>Amazon Clone 🚀✨🎈</h2>
-      {/* I need React-Router */}
-      
-    </div>
+  return (  
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path='/checkout'>
+            <h1>Check Out 🚀✨🎈</h1> 
+          </Route>
+
+          <Route path='/login'>
+            <h1>Login page🚀✨🎈</h1> 
+          </Route>
+
+          <Route path='/'>
+            <h1>Home Page 🚀✨🎈</h1> 
+          </Route>
+
+        </Switch>   
+      </div>  
+    </Router>
   );
 }
 
