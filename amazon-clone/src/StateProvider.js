@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from 'react';
+import React, { createContext, useContext, useReducer } from 'react';
 
 // I need React context API to track the basket (setup data layer)
 
@@ -11,3 +11,5 @@ export const StateProvider = ({ reducer, initialState, children}) => (
     {children}
   </StateContext.Provider>
 );
+
+export const useStateValue = () => useContext(StateContext);
