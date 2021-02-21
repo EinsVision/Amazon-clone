@@ -40,7 +40,7 @@ function Home() {
           title='The Lean Startup: how contant Innovation Creates'
           price={111.96}
           rating={5}
-          image='https://lh3.googleusercontent.com/proxy/utAOi4T0bkmisB-rB8wswIs1PVuM6IfRvHIXo6xeTlLLNDoD15ZARzUhyIuBIgKVque2KW1xWTvl0KcxOTfA3DqlrSnWphFQt95od8JKuyoCIQMK8GYkdPw' 
+          image='https://www.soccerpro.com/wp-content/uploads/sc3500_610_nike_barca_20_years_prestige_ball_01.jpg' 
         />
         <Product 
           id={12345} 
