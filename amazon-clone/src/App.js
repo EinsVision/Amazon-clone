@@ -25,16 +25,17 @@ function App() {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
       if(authUser) {
         // the user is logged in...
+
         dispatch({
           type: 'SET_USER',
           user: authUser,
-        })
+        });
       } else {
         // the user is logged out...
         dispatch({
           type: 'SET_USER',
           user: null,
-        })
+        });
       }
     });
     return () => {
